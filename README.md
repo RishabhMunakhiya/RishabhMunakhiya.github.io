@@ -71,7 +71,7 @@ Feel free to open an issue or leave feedback in the footer section on the websit
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/rishabh-dtu27/)
 - 🐙 [GitHub](https://github.com/rishabhmunakhiya)
-- 📧 [Email](rishim5503@gmail.com)
+
 
 
 ---
