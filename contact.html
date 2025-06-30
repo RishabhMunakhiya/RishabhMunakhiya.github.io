@@ -6,10 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    
+
     <!--  -->
         <header class="header">
         <nav class="navbar">
@@ -88,37 +88,36 @@
         </nav>
     </header>
 
-    <main>
-        <!-- Demo content for scrolling -->
-        <div class="content">
-            <div class="hero">
-                <h1>Where Innovation Meets Code</h1>
-                <p>Break the rules, build the future — welcome to CodeThief.</p>
-                <button class="cta-button">Learn More</button>
-            </div>
-            <div class="section">
-                <h2>Features</h2>
-                <div class="features">
-                    <div class="feature">
-                        <h3>Responsive Navbar designs</h3>
-                        <p>Works perfectly on desktop, tablet, and mobile devices</p>
-                    </div>
-                    <div class="feature">
-                        <h3>Animated Dropdowns</h3>
-                        <p>Smooth dropdown animations for desktop and mobile</p>
-                    </div>
-                    <div class="feature">
-                        <h3>Dark/Light Theme</h3>
-                        <p>Toggle between dark and light mode with ease</p>
-                    </div>
-                    <div class="feature" >
-                        <h3>Futuristic Look</h3>
-                        <p>Modern glassmorphism and neon effects</p>
-                    </div>
-                </div>
-            </div>
+    <!-- =========contact========== -->
+     <div class="contact-wrapper">
+    <div class="glass-card contact-section">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you!</p>
+      
+      <form class="contact-form">
+        <div class="form-group">
+          
+          <input type="text" id="name" placeholder="Full name" required>
         </div>
-    </main>
+        <div class="form-group">
+          
+          <input type="email" id="email" placeholder="Email Address " required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="3" placeholder="Your message here..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send</button>
+      </form>
+
+      <div class="contact-info">
+        <ul>
+          <li><i class="fas fa-phone"></i> +91 85XXXXXXXX</li>
+          <li><i class="fas fa-envelope"></i> contact@example.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
     <!-- =========footer========== -->
       <footer>
@@ -168,4 +167,5 @@
 
 </body>
 <script src="script.js"></script>
+
 </html>

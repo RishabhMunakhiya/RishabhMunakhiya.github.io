@@ -67,7 +67,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+    // redirection to pages
+    const aboutIcon = document.querySelector("#about");
+    aboutIcon.addEventListener("click", () => {
+    window.location.href = "about.html";
+    });
 
+    const homeIcon = document.querySelector("#home");
+    homeIcon.addEventListener("click", () => {
+    window.location.href = "index.html";
+    });
+
+    const contactIcon = document.querySelector("#contact");
+    contactIcon.addEventListener("click", () => {
+    window.location.href = "contact.html";
+    });
     // Theme toggle with enhanced transitions
     let isDark = true; // Default dark theme
     
