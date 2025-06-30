@@ -724,7 +724,7 @@ footer .col-4 form i {
     filter: drop-shadow(0 0 6px var(--primary-glow));
 }
 
-footer .col-4 input[type="email"] {
+footer .col-4 input[type="text"] {
     flex: 1;
     border: none;
     background: transparent;
@@ -734,7 +734,7 @@ footer .col-4 input[type="email"] {
     outline: none;
 }
 
-footer .col-4 input[type="email"]::placeholder {
+footer .col-4 input[type="text"]::placeholder {
     color: var(--text-description);
     opacity: 0.8;
 }
